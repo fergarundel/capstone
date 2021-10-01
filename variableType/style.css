@@ -1,0 +1,24 @@
+@font-face{
+  font-family: Neue Type;
+  src: url('NeueTypeVF.ttf') format("truetype-variations");
+  font-variation-settings: "wdth" 1 58;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+p {
+  color: #9fa2a1;
+  text-align: center;
+  font-family: 'Neue Type';
+  font-variation-settings: "wdth" 1;
+  padding-left: 5%;
+  width: 90%;
+}
+
