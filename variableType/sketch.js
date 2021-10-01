@@ -28,7 +28,7 @@ function gotPoses(poses){
 }
 
 function draw() {
-  background(231,83,37);
+  background(0);
 
 
 
