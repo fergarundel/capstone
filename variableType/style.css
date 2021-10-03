@@ -1,12 +1,15 @@
 @font-face{
   font-family: Neue Type;
-  src: url('NeueTypeVF.ttf') format("truetype-variations");
+  src: url('NeueAlphabet.ttf') format("truetype-variations");
   font-variation-settings: "wdth" 1 58;
+  font-variation-settings: "wght" 69 125;
+  font-variation-settings: "slnt" -25 25;
 }
 
 html, body {
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 canvas {
@@ -14,11 +17,12 @@ canvas {
 }
 
 p {
-  color: #FFFFFF;
+  color: white;
+  background-color: black;
   text-align: center;
   font-family: 'Neue Type';
-  font-variation-settings: "wdth" 1;
   padding-left: 5%;
   width: 90%;
+  font-size: 27vw;
 }
 
